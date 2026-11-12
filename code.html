@@ -1,598 +1,480 @@
 <!DOCTYPE html>
 
 <html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>SevaEase Health - Accessible Senior Citizen Healthcare Portal</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24..48,400..700,0..1,-50..200" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"secondary-fixed":"#8cf4eb","on-secondary-container":"#006f69","on-secondary-fixed":"#00201e","on-error":"#ffffff","tertiary-fixed":"#ffdad3","outline":"#737781","surface-tint":"#2e5fa1","on-tertiary-container":"#ffa492","on-surface":"#041b3c","on-surface-variant":"#424750","tertiary-fixed-dim":"#ffb4a6","inverse-surface":"#1d3052","on-primary-container":"#95bdff","on-tertiary":"#ffffff","secondary-fixed-dim":"#6ed7cf","surface-container-lowest":"#ffffff","on-secondary":"#ffffff","tertiary":"#6d0a00","surface-bright":"#f9f9ff","outline-variant":"#c2c6d2","primary-fixed-dim":"#a8c8ff","surface-container-low":"#f1f3ff","surface-dim":"#cadaff","on-primary-fixed-variant":"#084687","inverse-on-surface":"#edf0ff","tertiary-container":"#971200","on-error-container":"#93000a","surface-variant":"#d7e2ff","on-tertiary-fixed-variant":"#8f1100","primary-container":"#124b8c","surface-container":"#e8edff","surface-container-highest":"#d7e2ff","surface":"#f9f9ff","primary":"#003469","background":"#f9f9ff","on-primary-fixed":"#001b3c","on-tertiary-fixed":"#3f0300","on-secondary-fixed-variant":"#00504c","secondary":"#006a65","inverse-primary":"#a8c8ff","primary-fixed":"#d5e3ff","error-container":"#ffdad6","on-primary":"#ffffff","secondary-container":"#89f1e8","error":"#ba1a1a","on-background":"#041b3c","surface-container-high":"#e0e8ff"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"space-xs":"0.5rem","space-lg":"1.5rem","margin-mobile":"1.25rem","space-sm":"0.75rem",margin:"2rem",gutter:"1.5rem","space-xl":"2rem","space-md":"1rem","gutter-mobile":"1rem"},fontFamily:{"headline-md":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"headline-xl-mobile":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"headline-xl":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"body-xl":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"]},fontSize:{"headline-md":["24px",{lineHeight:"34px",fontWeight:"700"}],"headline-lg-mobile":["26px",{lineHeight:"36px",letterSpacing:"0em",fontWeight:"700"}],"body-lg":["18px",{lineHeight:"28px",fontWeight:"500"}],"headline-xl-mobile":["30px",{lineHeight:"40px",letterSpacing:"-0.01em",fontWeight:"800"}],"label-md":["16px",{lineHeight:"22px",letterSpacing:"0.01em",fontWeight:"600"}],"headline-sm":["20px",{lineHeight:"30px",fontWeight:"700"}],"headline-lg":["32px",{lineHeight:"44px",letterSpacing:"-0.01em",fontWeight:"700"}],"headline-xl":["40px",{lineHeight:"52px",letterSpacing:"-0.02em",fontWeight:"800"}],"label-lg":["18px",{lineHeight:"24px",letterSpacing:"0.01em",fontWeight:"700"}],"body-xl":["20px",{lineHeight:"32px",fontWeight:"500"}],"body-md":["16px",{lineHeight:"26px",fontWeight:"500"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 w-full z-50 bg-surface/95 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.06)]"><div class="bg-primary text-on-primary py-space-xs px-margin"><div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm font-label-md text-label-md"><span class="material-symbols-outlined text-secondary-fixed text-xl">verified_user</span><span>Ayushman Bharat / PM-JAY Empaneled Senior Health Portal</span></div><div class="flex items-center gap-space-lg font-label-md text-label-md"><span class="bg-tertiary text-on-tertiary px-space-xs py-0.5 rounded">Ambulance: 108</span><span class="bg-primary-container text-on-primary px-space-xs py-0.5 rounded">Elderline: 14555</span><span>Toll-Free: 1800-111-565</span></div></div></div><div class="max-w-7xl mx-auto px-margin py-space-sm flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-md"><img alt="SevaEase Health Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrAp0LH8M17zaxAL8cMaQjjFL7UifRkd46URdLcbvyfckjn4oku3F0Tvs7gCrMkkKM04ktN3cZ0rtp1MSnG2t64HrtkHuqutMvmAQOiMU4GeFGbPthQBWU9EK44e3LR1B1jDbjeuluwxpmStEU_O5PUfU8ZBA6GSsgiA5wgz721MdbRwX_iL0KlrrE4W8rFq8ECi2OGM3-O8MZ-OWscOzHeEowAppW7tdaLi_uEaEIcW"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight">SevaEase Health</span><span class="font-label-md text-label-md text-on-surface-variant font-medium">Senior Citizen Healthcare Portal (सेवा ईज़)</span></div></div><div class="flex items-center gap-space-sm"><div class="flex items-center bg-surface-container-high rounded-lg p-1"><button class="px-space-xs py-1 text-primary font-bold text-label-md hover:bg-surface-container-highest hover:text-on-surface rounded" title="Decrease text size" type="button">A-</button><span class="text-outline px-1">|</span><button class="px-space-xs py-1 text-primary font-bold text-label-md hover:bg-surface-container-highest hover:text-on-surface rounded" title="Increase text size" type="button">A+</button></div><button class="flex items-center gap-1 bg-surface-container-high hover:bg-surface-container-highest text-on-surface px-space-sm py-2 rounded-lg font-label-md text-label-md transition-colors" type="button"><span class="material-symbols-outlined text-xl">contrast</span><span>High Contrast</span></button><button class="flex items-center gap-1.5 bg-secondary text-on-secondary px-space-sm py-2 rounded-lg font-label-md text-label-md hover:bg-primary transition-colors shadow-sm" type="button"><span class="material-symbols-outlined text-xl">graphic_eq</span><span>Voice Assistant</span></button><select aria-label="Select language" class="bg-surface-container-high text-on-surface font-label-md text-label-md px-space-xs py-2 rounded-lg border-0 focus:ring-2 focus:ring-primary"><option>English</option><option>हिन्दी</option><option>தமிழ்</option></select><div class="flex items-center gap-space-xs bg-surface-container-low px-space-sm py-1.5 rounded-full"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_G5TESwLqrbzq2vKRIrAN7zUtUh58d2RCMtV3zvKJtJE2RCy59aIZo2kbV0E3TY7DmRSZi-xvSNyewbYM5JC-yC4uHlNHJ9j9fWOGbhJGBC2qTTVhRoO-0rsUoGCYDPHaKsJfxla_kBEbpuu-0zaUqr0XpcJBIzojWRkvpIbwz6pHvjg4PcvaqRSOOiWfmvcEovP4_IPvmbqxwoE0kVUCHguhKlPC4UZ4f8a4zNo"/><div class="flex flex-col leading-tight"><span class="font-label-md text-label-md text-on-surface">Ramesh Chandra Sharma (Age 68)</span><span class="text-xs text-secondary font-semibold">ABHA: 91-4523-8890 • Verified Senior</span></div></div></div></div><div class="max-w-7xl mx-auto px-margin"><nav class="flex items-center gap-space-xs py-space-xs overflow-x-auto" data-active-classes="bg-primary-container text-on-primary rounded-lg"><a class="px-space-sm py-2 text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-high hover:text-on-surface transition-colors whitespace-nowrap" data-path="home" href="#">Home / मुख्य पृष्ठ</a><a class="px-space-sm py-2 text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-high hover:text-on-surface transition-colors whitespace-nowrap" data-path="find-hospitals" href="#">Find Hospitals (अस्पताल खोजें)</a><a class="px-space-sm py-2 text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-high hover:text-on-surface transition-colors whitespace-nowrap" data-path="find-doctors" href="#">Find Doctors (डॉक्टर सूची)</a><a class="px-space-sm py-2 text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-high hover:text-on-surface transition-colors whitespace-nowrap" data-path="book-appointment" href="#">Book Appointment (अपॉइंटमेंट बुक करें)</a><a aria-current="page" class="px-space-sm py-2 font-label-md transition-colors whitespace-nowrap bg-primary-container text-on-primary rounded-lg" data-path="my-appointments" href="#">My Appointments (मेरी पर्चियां)</a><a class="px-space-sm py-2 text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-high hover:text-on-surface transition-colors whitespace-nowrap" data-path="help-and-support" href="#">Help &amp; Support (सहायता केंद्र)</a></nav></div></header><main class="w-full pt-44 bg-surface min-h-[calc(100vh-140px)]"><div class="max-w-7xl mx-auto px-margin py-space-sm"><nav aria-label="Breadcrumb" class="flex items-center gap-space-xs text-on-surface-variant font-label-md text-label-md"><span class="material-symbols-outlined text-lg">home</span><a class="hover:text-primary transition-colors" data-path="home" href="#">Portal</a><span>/</span><span class="text-primary font-bold">Senior Health Services</span></nav></div><div class="max-w-7xl mx-auto px-margin pb-space-xl"><div class="flex flex-col w-full">
-<div class="flex flex-col gap-space-lg mb-space-xl">
-<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-md">
-<div class="flex flex-col gap-space-xs">
-<div class="flex items-center gap-space-xs">
-<span class="inline-flex items-center justify-center w-8 h-8 rounded-full bg-primary-fixed text-primary">
-<span class="material-symbols-outlined text-xl" style="font-variation-settings: 'FILL' 1;">calendar_month</span>
-</span>
-<span class="font-label-md text-label-md text-primary tracking-wide uppercase">Senior Care Records • नागरिक स्वास्थ्य पर्ची</span>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"secondary-fixed":"#8cf4eb","on-secondary-container":"#006f69","on-secondary-fixed":"#00201e","on-error":"#ffffff","tertiary-fixed":"#ffdad3","outline":"#737781","surface-tint":"#2e5fa1","on-tertiary-container":"#ffa492","on-surface":"#041b3c","on-surface-variant":"#424750","tertiary-fixed-dim":"#ffb4a6","inverse-surface":"#1d3052","on-primary-container":"#95bdff","on-tertiary":"#ffffff","secondary-fixed-dim":"#6ed7cf","surface-container-lowest":"#ffffff","on-secondary":"#ffffff","tertiary":"#6d0a00","surface-bright":"#f9f9ff","outline-variant":"#c2c6d2","primary-fixed-dim":"#a8c8ff","surface-container-low":"#f1f3ff","surface-dim":"#cadaff","on-primary-fixed-variant":"#084687","inverse-on-surface":"#edf0ff","tertiary-container":"#971200","on-error-container":"#93000a","surface-variant":"#d7e2ff","on-tertiary-fixed-variant":"#8f1100","primary-container":"#124b8c","surface-container":"#e8edff","surface-container-highest":"#d7e2ff","surface":"#f9f9ff","primary":"#003469","background":"#f9f9ff","on-primary-fixed":"#001b3c","on-tertiary-fixed":"#3f0300","on-secondary-fixed-variant":"#00504c","secondary":"#006a65","inverse-primary":"#a8c8ff","primary-fixed":"#d5e3ff","error-container":"#ffdad6","on-primary":"#ffffff","secondary-container":"#89f1e8","error":"#ba1a1a","on-background":"#041b3c","surface-container-high":"#e0e8ff"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"space-xs":"0.5rem","space-lg":"1.5rem","margin-mobile":"1.25rem","space-sm":"0.75rem",margin:"2rem",gutter:"1.5rem","space-xl":"2rem","space-md":"1rem","gutter-mobile":"1rem"},fontFamily:{"headline-md":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"headline-xl-mobile":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"headline-xl":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"body-xl":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"]},fontSize:{"headline-md":["24px",{lineHeight:"34px",fontWeight:"700"}],"headline-lg-mobile":["26px",{lineHeight:"36px",letterSpacing:"0em",fontWeight:"700"}],"body-lg":["18px",{lineHeight:"28px",fontWeight:"500"}],"headline-xl-mobile":["30px",{lineHeight:"40px",letterSpacing:"-0.01em",fontWeight:"800"}],"label-md":["16px",{lineHeight:"22px",letterSpacing:"0.01em",fontWeight:"600"}],"headline-sm":["20px",{lineHeight:"30px",fontWeight:"700"}],"headline-lg":["32px",{lineHeight:"44px",letterSpacing:"-0.01em",fontWeight:"700"}],"headline-xl":["40px",{lineHeight:"52px",letterSpacing:"-0.02em",fontWeight:"800"}],"label-lg":["18px",{lineHeight:"24px",letterSpacing:"0.01em",fontWeight:"700"}],"body-xl":["20px",{lineHeight:"32px",fontWeight:"500"}],"body-md":["16px",{lineHeight:"26px",fontWeight:"500"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 w-full z-50 bg-surface/95 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.06)]"><div class="bg-primary text-on-primary py-space-xs px-margin"><div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm font-label-md text-label-md"><span class="material-symbols-outlined text-secondary-fixed text-xl">verified_user</span><span>Ayushman Bharat / PM-JAY Empaneled Senior Health Portal</span></div><div class="flex items-center gap-space-lg font-label-md text-label-md"><span class="bg-tertiary text-on-tertiary px-space-xs py-0.5 rounded">Ambulance: 108</span><span class="bg-primary-container text-on-primary px-space-xs py-0.5 rounded">Elderline: 14555</span><span>Toll-Free: 1800-111-565</span></div></div></div><div class="max-w-7xl mx-auto px-margin py-space-sm flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-md"><img alt="SevaEase Health Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrAp0LH8M17zaxAL8cMaQjjFL7UifRkd46URdLcbvyfckjn4oku3F0Tvs7gCrMkkKM04ktN3cZ0rtp1MSnG2t64HrtkHuqutMvmAQOiMU4GeFGbPthQBWU9EK44e3LR1B1jDbjeuluwxpmStEU_O5PUfU8ZBA6GSsgiA5wgz721MdbRwX_iL0KlrrE4W8rFq8ECi2OGM3-O8MZ-OWscOzHeEowAppW7tdaLi_uEaEIcW"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight">SevaEase Health</span><span class="font-label-md text-label-md text-on-surface-variant font-medium">Senior Citizen Healthcare Portal (सेवा ईज़)</span></div></div><div class="flex items-center gap-space-sm"><div class="flex items-center bg-surface-container-high rounded-lg p-1"><button class="px-space-xs py-1 text-primary font-bold text-label-md hover:bg-surface-container-highest hover:text-on-surface rounded" title="Decrease text size" type="button">A-</button><span class="text-outline px-1">|</span><button class="px-space-xs py-1 text-primary font-bold text-label-md hover:bg-surface-container-highest hover:text-on-surface rounded" title="Increase text size" type="button">A+</button></div><button class="flex items-center gap-1 bg-surface-container-high hover:bg-surface-container-highest text-on-surface px-space-sm py-2 rounded-lg font-label-md text-label-md transition-colors" type="button"><span class="material-symbols-outlined text-xl">contrast</span><span>High Contrast</span></button><button class="flex items-center gap-1.5 bg-secondary text-on-secondary px-space-sm py-2 rounded-lg font-label-md text-label-md hover:bg-primary transition-colors shadow-sm" type="button"><span class="material-symbols-outlined text-xl">graphic_eq</span><span>Voice Assistant</span></button><select aria-label="Select language" class="bg-surface-container-high text-on-surface font-label-md text-label-md px-space-xs py-2 rounded-lg border-0 focus:ring-2 focus:ring-primary"><option>English</option><option>हिन्दी</option><option>தமிழ்</option></select><div class="flex items-center gap-space-xs bg-surface-container-low px-space-sm py-1.5 rounded-full"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_G5TESwLqrbzq2vKRIrAN7zUtUh58d2RCMtV3zvKJtJE2RCy59aIZo2kbV0E3TY7DmRSZi-xvSNyewbYM5JC-yC4uHlNHJ9j9fWOGbhJGBC2qTTVhRoO-0rsUoGCYDPHaKsJfxla_kBEbpuu-0zaUqr0XpcJBIzojWRkvpIbwz6pHvjg4PcvaqRSOOiWfmvcEovP4_IPvmbqxwoE0kVUCHguhKlPC4UZ4f8a4zNo"/><div class="flex flex-col leading-tight"><span class="font-label-md text-label-md text-on-surface">Ramesh Chandra Sharma (Age 68)</span><span class="text-xs text-secondary font-semibold">ABHA: 91-4523-8890 • Verified Senior</span></div></div></div></div><div class="max-w-7xl mx-auto px-margin"><nav class="flex items-center gap-space-xs py-space-xs overflow-x-auto" data-active-classes="bg-primary-container text-on-primary rounded-lg"><a class="px-space-sm py-2 text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-high hover:text-on-surface transition-colors whitespace-nowrap" data-path="home" href="#">Home / मुख्य पृष्ठ</a><a class="px-space-sm py-2 text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-high hover:text-on-surface transition-colors whitespace-nowrap" data-path="find-hospitals" href="#">Find Hospitals (अस्पताल खोजें)</a><a aria-current="page" class="px-space-sm py-2 font-label-md transition-colors whitespace-nowrap bg-primary-container text-on-primary rounded-lg" data-path="find-doctors" href="#">Find Doctors (डॉक्टर सूची)</a><a class="px-space-sm py-2 text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-high hover:text-on-surface transition-colors whitespace-nowrap" data-path="book-appointment" href="#">Book Appointment (अपॉइंटमेंट बुक करें)</a><a class="px-space-sm py-2 text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-high hover:text-on-surface transition-colors whitespace-nowrap" data-path="my-appointments" href="#">My Appointments (मेरी पर्चियां)</a><a class="px-space-sm py-2 text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-high hover:text-on-surface transition-colors whitespace-nowrap" data-path="help-and-support" href="#">Help &amp; Support (सहायता केंद्र)</a></nav></div></header><main class="w-full pt-44 bg-surface min-h-[calc(100vh-140px)]"><div class="max-w-7xl mx-auto px-margin py-space-sm"><nav aria-label="Breadcrumb" class="flex items-center gap-space-xs text-on-surface-variant font-label-md text-label-md"><span class="material-symbols-outlined text-lg">home</span><a class="hover:text-primary transition-colors" data-path="home" href="#">Portal</a><span>/</span><span class="text-primary font-bold">Senior Health Services</span></nav></div><div class="max-w-7xl mx-auto px-margin pb-space-xl"><div class="flex flex-col w-full">
+<!-- Accessibility & Page Header Banner -->
+<section class="w-full bg-surface-container-low rounded-xl p-space-lg mb-space-xl shadow-sm relative overflow-hidden">
+<div class="absolute -right-16 -top-16 w-64 h-64 bg-primary-fixed/20 rounded-full blur-3xl pointer-events-none"></div>
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-lg relative z-10">
+<div class="flex flex-col max-w-3xl">
+<div class="flex items-center gap-space-xs text-on-surface-variant font-label-md text-label-md mb-space-xs">
+<span>Home</span>
+<span class="material-symbols-outlined text-sm">chevron_right</span>
+<span class="text-primary font-bold">AIIMS New Delhi</span>
+<span class="material-symbols-outlined text-sm">chevron_right</span>
+<span class="text-secondary font-bold">Select Senior Specialist</span>
 </div>
-<h1 class="font-headline-xl text-headline-xl text-on-surface tracking-tight">
-          My Doctor Appointments
-          <span class="block text-on-surface-variant font-headline-md text-headline-md font-semibold mt-1">मेरी अपॉइंटमेंट और पर्चियां</span>
+<h1 class="font-headline-xl text-headline-xl text-primary tracking-tight">
+          Select a Senior Care Doctor <span class="block font-headline-lg text-headline-lg text-secondary">(डॉक्टर का चयन करें)</span>
 </h1>
-<p class="font-body-lg text-body-lg text-on-surface-variant max-w-3xl">
-          View your upcoming hospital visits, download your official OPD slip with barcode, or manage your bookings with zero penalty.
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-space-xs">
+          Empaneled geriatric specialists &amp; department heads dedicated to compassionate consultation. Free OP consultations covered under PM-JAY &amp; CGHS Senior Citizen Quota.
         </p>
 </div>
-<div class="flex flex-wrap items-center gap-space-sm">
-<button class="inline-flex items-center gap-space-xs bg-secondary-fixed text-on-secondary-fixed px-space-md py-3 rounded-xl font-label-lg text-label-lg shadow-sm hover:opacity-90 transition-all min-h-[56px]" id="tts-page-btn" type="button">
-<span class="material-symbols-outlined text-2xl" id="tts-icon">volume_up</span>
-<span id="tts-btn-label">Read Appointments Aloud (सुनें)</span>
+<!-- Quick Senior Audio Guidance Bar -->
+<div class="flex flex-wrap sm:flex-nowrap items-center gap-space-sm bg-surface-container-lowest p-space-sm rounded-xl shadow-md">
+<button class="flex items-center gap-space-xs bg-primary text-on-primary px-space-md py-space-sm rounded-lg font-label-md text-label-md hover:bg-primary-container transition-all active:scale-95 shadow-sm min-h-[52px]" id="tts-summary-btn" type="button">
+<span class="material-symbols-outlined text-2xl">volume_up</span>
+<span class="text-left font-bold leading-tight">Read Doctors Aloud<br/><span class="text-xs font-normal opacity-90 text-surface-variant">डॉक्टरों की सूची सुनें</span></span>
 </button>
-<button class="inline-flex items-center gap-space-xs bg-surface-container-high text-primary px-space-md py-3 rounded-xl font-label-lg text-label-lg shadow-sm hover:bg-surface-container-highest transition-all min-h-[56px]" type="button">
-<span class="material-symbols-outlined text-2xl">download</span>
-<span>Download All Slips (सभी पर्चियां)</span>
-</button>
-</div>
-</div>
-<!-- Navigation Tabs for High Visibility -->
-<div class="flex p-1.5 bg-surface-container-high rounded-2xl gap-2 overflow-x-auto" role="tablist">
-<button aria-selected="true" class="tab-button flex items-center justify-center gap-2 py-3.5 px-space-lg rounded-xl font-label-lg text-label-lg bg-surface-container-lowest text-primary shadow-sm whitespace-nowrap min-h-[52px]" id="tab-upcoming" role="tab" type="button">
-<span class="material-symbols-outlined text-xl" style="font-variation-settings: 'FILL' 1;">event_upcoming</span>
-<span>Upcoming Appointments (आगामी)</span>
-<span class="inline-flex items-center justify-center px-2 py-0.5 rounded-full text-xs font-bold bg-primary text-on-primary">1 Active</span>
-</button>
-<button aria-selected="false" class="tab-button flex items-center justify-center gap-2 py-3.5 px-space-lg rounded-xl font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface whitespace-nowrap min-h-[52px]" id="tab-past" role="tab" type="button">
-<span class="material-symbols-outlined text-xl">history</span>
-<span>Past Visits &amp; Prescriptions (पिछली मुलाक़ातें)</span>
-<span class="inline-flex items-center justify-center px-2 py-0.5 rounded-full text-xs font-bold bg-surface-container text-on-surface-variant">3 Records</span>
-</button>
-<button aria-selected="false" class="tab-button flex items-center justify-center gap-2 py-3.5 px-space-lg rounded-xl font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface whitespace-nowrap min-h-[52px]" id="tab-cancelled" role="tab" type="button">
-<span class="material-symbols-outlined text-xl">event_busy</span>
-<span>Cancelled Slots (रद्द सूचियां)</span>
+<button class="flex items-center gap-space-xs bg-surface-container-high text-primary px-space-md py-space-sm rounded-lg font-label-md text-label-md hover:bg-surface-container-highest transition-all active:scale-95 min-h-[52px]" id="toggle-font-btn" type="button">
+<span class="material-symbols-outlined text-2xl">format_size</span>
+<span class="text-left font-bold leading-tight">Big Font Mode<br/><span class="text-xs font-normal text-on-surface-variant">बड़े अक्षर करें</span></span>
 </button>
 </div>
 </div>
-<!-- Tab Content: Upcoming Appointment -->
-<div class="flex flex-col gap-space-xl" id="content-upcoming">
-<!-- Active OPD Digital Slip Card -->
-<div class="relative bg-surface-container-low rounded-2xl overflow-hidden shadow-sm">
-<!-- Decorative Top Header Strip -->
-<div class="bg-primary text-on-primary px-space-lg py-space-sm flex flex-wrap items-center justify-between gap-space-sm">
-<div class="flex items-center gap-space-sm">
-<span class="material-symbols-outlined text-secondary-fixed text-2xl">verified</span>
-<div>
-<span class="font-label-lg text-label-lg">Confirmed National OPD Token Slip</span>
-<span class="font-body-md text-body-md text-on-primary-container block sm:inline sm:ml-2">सरकारी चिकित्सा परामर्श टोकन</span>
+<!-- Active Hospital Filter Cue -->
+<div class="mt-space-md pt-space-md flex flex-wrap items-center gap-space-md bg-surface-container-lowest/80 p-space-sm rounded-lg">
+<div class="flex items-center gap-space-xs text-on-surface font-label-md text-label-md">
+<span class="material-symbols-outlined text-primary text-xl">apartment</span>
+<span>Selected Hospital:</span>
+<span class="bg-primary-fixed text-on-primary-fixed px-space-xs py-0.5 rounded font-bold">AIIMS OPD Campus, Ansari Nagar East</span>
+</div>
+<span class="hidden sm:inline text-outline-variant">•</span>
+<div class="flex items-center gap-space-xs text-on-surface-variant font-label-md text-label-md">
+<span class="material-symbols-outlined text-secondary text-xl">wheelchair_pickup</span>
+<span>Wheelchair ramps &amp; battery buggies available at OPD Gate 2</span>
 </div>
 </div>
-<div class="flex items-center gap-2 bg-primary-container text-on-primary px-space-sm py-1.5 rounded-lg font-label-md text-label-md">
-<span class="material-symbols-outlined text-lg">tag</span>
-<span>Slip ID: <strong>#SEVA-2023-AIIMS-8849</strong></span>
+</section>
+<!-- Specialty Department Filter Pills -->
+<section aria-label="Department Filter" class="w-full mb-space-xl">
+<div class="flex items-center justify-between mb-space-sm">
+<h2 class="font-headline-sm text-headline-sm text-on-surface flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary">filter_alt</span>
+<span>Filter by Medical Department (विभाग चुनें)</span>
+</h2>
+<span class="font-label-md text-label-md text-on-surface-variant">Showing 4 Available Specialists</span>
 </div>
-</div>
-<!-- Slip Main Content -->
-<div class="p-space-lg lg:p-space-xl flex flex-col gap-space-xl">
-<!-- Status & High-level alert banner -->
-<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-md p-space-md rounded-xl bg-surface-container-lowest">
-<div class="flex items-center gap-space-md">
-<div class="w-12 h-12 rounded-xl bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center shrink-0">
-<span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">check_circle</span>
-</div>
-<div>
-<span class="inline-flex items-center gap-1 font-headline-sm text-headline-sm text-secondary">
-                Confirmed &amp; Verified (पुष्टि की गई)
-              </span>
-<p class="font-body-md text-body-md text-on-surface-variant">
-                Doctor notified • Slot reserved under PM-JAY Senior Citizen Priority Channel
-              </p>
-</div>
-</div>
-<div class="flex items-center gap-2 self-start md:self-auto bg-surface-container-high px-space-md py-2 rounded-lg">
-<span class="material-symbols-outlined text-primary text-xl">access_time</span>
-<span class="font-label-md text-label-md text-primary">Token Issued: 23 Oct, 09:30 AM</span>
-</div>
-</div>
-<!-- Main Details Grid & Barcode -->
-<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-stretch">
-<!-- Left: Clinical & Hospital Data (8 cols) -->
-<div class="lg:col-span-8 flex flex-col gap-space-lg">
-<!-- Doctor Details -->
-<div class="flex flex-col sm:flex-row items-start sm:items-center gap-space-md bg-surface-container-lowest p-space-md rounded-xl">
-<img class="w-20 h-20 rounded-xl object-cover shrink-0" data-alt="Portrait photo of a compassionate senior male cardiologist in a white coat with a stethoscope around his neck inside a bright hospital office, dignified and friendly expression." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2ywKblGqoKRaLWvGDfjkqKxvAaP0DbJwAKVcvEvMCUigqaGHSgTqfyROgQBZYr8BHxZGZbvPb9bg2NvKqdOnaW1_VXgczfrOm2i44hs1NKxF_xX0j4FO_o4k55j16HSlveMq6icCV_EPOxwNt6C_Efb1ddVat3fOC9Iqo6OhA_RKrZqI58apJi6sK5af756usNgRGMopaUVIKnBRuuJU-LVmjxbJHXv-bBvT-938"/>
-<div class="flex flex-col">
-<div class="flex items-center gap-2">
-<span class="font-label-md text-label-md text-secondary font-bold uppercase tracking-wider">Cardiology Department</span>
-<span class="w-1.5 h-1.5 rounded-full bg-outline-variant"></span>
-<span class="font-label-md text-label-md text-on-surface-variant">OPD Room 204</span>
-</div>
-<h3 class="font-headline-md text-headline-md text-on-surface">Dr. Arvind Kasliwal, MD, DM</h3>
-<p class="font-body-md text-body-md text-on-surface-variant">
-                  Senior Consultant Interventional Cardiologist • AIIMS Faculty
-                </p>
-</div>
-</div>
-<!-- Date, Hospital & Token Highlights -->
-<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-md">
-<div class="bg-surface-container-lowest p-space-md rounded-xl flex flex-col gap-1">
-<span class="font-label-md text-label-md text-on-surface-variant flex items-center gap-1">
-<span class="material-symbols-outlined text-lg text-primary">event</span> Visit Date
-                </span>
-<span class="font-headline-sm text-headline-sm text-primary">Tomorrow</span>
-<span class="font-body-md text-body-md text-on-surface font-semibold">Wed, 24 Oct 2023</span>
-</div>
-<div class="bg-surface-container-lowest p-space-md rounded-xl flex flex-col gap-1">
-<span class="font-label-md text-label-md text-on-surface-variant flex items-center gap-1">
-<span class="material-symbols-outlined text-lg text-secondary">schedule</span> Reporting Time
-                </span>
-<span class="font-headline-sm text-headline-sm text-secondary">10:00 AM</span>
-<span class="font-body-md text-body-md text-on-surface font-semibold">Token No: #B-14</span>
-</div>
-<div class="bg-surface-container-lowest p-space-md rounded-xl flex flex-col gap-1">
-<span class="font-label-md text-label-md text-on-surface-variant flex items-center gap-1">
-<span class="material-symbols-outlined text-lg text-primary">domain</span> Medical Facility
-                </span>
-<span class="font-headline-sm text-headline-sm text-on-surface">AIIMS Delhi</span>
-<span class="font-body-md text-body-md text-on-surface-variant">Ansari Nagar, New Delhi</span>
-</div>
-</div>
-<!-- Patient & ABHA Profile Strip -->
-<div class="bg-surface-container-lowest p-space-md rounded-xl flex flex-col sm:flex-row sm:items-center justify-between gap-space-md">
-<div class="flex items-center gap-space-sm">
-<div class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-primary shrink-0">
-<span class="material-symbols-outlined text-2xl">person</span>
-</div>
-<div>
-<span class="font-label-lg text-label-lg text-on-surface">Ramesh Chandra Sharma (Male, 68 Yrs)</span>
-<div class="flex items-center gap-2 text-on-surface-variant font-body-md text-body-md">
-<span>ABHA ID: <strong>91-4523-8890</strong></span>
-<span>•</span>
-<span class="text-secondary font-semibold">Senior Category Privilege</span>
-</div>
-</div>
-</div>
-<div class="flex items-center gap-2 bg-secondary-fixed/40 px-3 py-1.5 rounded-lg text-on-secondary-fixed">
-<span class="material-symbols-outlined text-lg">medical_services</span>
-<span class="font-label-md text-label-md">Coverage: Zero-Copay PM-JAY</span>
-</div>
-</div>
-<!-- Special Senior Care Logistics -->
-<div class="bg-surface-container p-space-md rounded-xl flex items-start gap-space-md">
-<span class="material-symbols-outlined text-primary text-3xl shrink-0 mt-0.5">assist_walker</span>
-<div class="flex flex-col">
-<span class="font-label-lg text-label-lg text-primary">Assistance Booked at Hospital Gate 2</span>
-<p class="font-body-md text-body-md text-on-surface-variant">
-                  Wheelchair service confirmed with attendant. <strong>Seva Mitra Guide: Sanjay Kumar</strong> will receive you at OPD Block Reception. (Phone: 011-2659-4500).
-                </p>
-</div>
-</div>
-</div>
-<!-- Right: Barcode & Digital Pass (4 cols) -->
-<div class="lg:col-span-4 bg-surface-container-lowest p-space-lg rounded-xl flex flex-col items-center justify-between text-center">
-<div class="w-full flex flex-col items-center">
-<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider mb-2">Gate Entry Barcode</span>
-<div class="bg-surface p-3 rounded-xl shadow-inner w-full flex flex-col items-center justify-center">
-<!-- High-contrast SVG Barcode -->
-<svg class="w-full h-24 text-on-surface" fill="currentColor" preserveaspectratio="none" viewbox="0 0 260 80">
-<rect height="80" width="6" x="0" y="0"></rect>
-<rect height="80" width="3" x="10" y="0"></rect>
-<rect height="80" width="10" x="16" y="0"></rect>
-<rect height="80" width="4" x="30" y="0"></rect>
-<rect height="80" width="8" x="40" y="0"></rect>
-<rect height="80" width="4" x="52" y="0"></rect>
-<rect height="80" width="14" x="60" y="0"></rect>
-<rect height="80" width="4" x="78" y="0"></rect>
-<rect height="80" width="6" x="86" y="0"></rect>
-<rect height="80" width="12" x="96" y="0"></rect>
-<rect height="80" width="4" x="112" y="0"></rect>
-<rect height="80" width="10" x="120" y="0"></rect>
-<rect height="80" width="6" x="134" y="0"></rect>
-<rect height="80" width="14" x="144" y="0"></rect>
-<rect height="80" width="4" x="162" y="0"></rect>
-<rect height="80" width="8" x="170" y="0"></rect>
-<rect height="80" width="6" x="182" y="0"></rect>
-<rect height="80" width="12" x="192" y="0"></rect>
-<rect height="80" width="4" x="208" y="0"></rect>
-<rect height="80" width="10" x="216" y="0"></rect>
-<rect height="80" width="6" x="230" y="0"></rect>
-<rect height="80" width="12" x="240" y="0"></rect>
-<rect height="80" width="4" x="256" y="0"></rect>
-</svg>
-<span class="font-label-md text-label-md text-on-surface tracking-widest mt-2 font-mono font-bold">SEVA-9145-AIIMS-8849</span>
-</div>
-<p class="font-body-md text-body-md text-on-surface-variant mt-space-sm">
-                Scan this barcode at <strong>Hospital Kiosk Gate 2</strong> or show on phone for fast queue pass.
-              </p>
-</div>
-<!-- Fast Reminder Box -->
-<div class="w-full bg-surface-container-high p-space-sm rounded-xl mt-space-md text-left flex items-start gap-2">
-<span class="material-symbols-outlined text-secondary text-xl shrink-0 mt-0.5">info</span>
-<span class="font-body-md text-body-md text-on-surface-variant">Please bring your physical Aadhaar Card and past ECG records.</span>
-</div>
-</div>
-</div>
-<!-- Action Buttons Row (Senior-optimized big targets) -->
-<div class="flex flex-wrap items-center gap-space-sm pt-space-md bg-surface-container-lowest p-space-md rounded-xl">
-<button class="inline-flex items-center justify-center gap-space-xs bg-primary text-on-primary px-space-lg py-3.5 rounded-xl font-label-lg text-label-lg shadow-sm hover:bg-primary-container transition-all min-h-[56px] flex-1 sm:flex-initial" type="button">
-<span class="material-symbols-outlined text-2xl">picture_as_pdf</span>
-<span>Download OPD Slip (PDF)</span>
+<!-- Filter Buttons Horizontal Scroll on Small Screens -->
+<div class="flex items-center gap-space-sm overflow-x-auto pb-space-xs scrollbar-none">
+<button class="dept-btn flex items-center gap-space-xs px-space-md py-3 rounded-full font-label-md text-label-md whitespace-nowrap bg-surface-container-high text-on-surface hover:bg-primary-fixed hover:text-on-primary-fixed transition-colors" type="button">
+<span class="material-symbols-outlined text-xl">category</span>
+<span>All Departments (सभी विभाग)</span>
 </button>
-<button class="inline-flex items-center justify-center gap-space-xs bg-secondary text-on-secondary px-space-md py-3.5 rounded-xl font-label-lg text-label-lg shadow-sm hover:opacity-90 transition-all min-h-[56px] flex-1 sm:flex-initial" id="btn-read-appointment-card" type="button">
-<span class="material-symbols-outlined text-2xl">campaign</span>
-<span>Listen Booking Details (बोलकर सुनें)</span>
+<button class="dept-btn flex items-center gap-space-xs px-space-lg py-3 rounded-full font-label-lg text-label-lg whitespace-nowrap bg-primary text-on-primary shadow-sm hover:bg-primary-container transition-all" type="button">
+<span class="material-symbols-outlined text-2xl text-secondary-fixed">cardiology</span>
+<span>Cardiology (हृदय रोग) • Active</span>
 </button>
-<a class="inline-flex items-center justify-center gap-space-xs bg-surface-container-high text-primary px-space-md py-3.5 rounded-xl font-label-lg text-label-lg hover:bg-surface-container-highest transition-all min-h-[56px] flex-1 sm:flex-initial" href="#hospital-map-section">
-<span class="material-symbols-outlined text-2xl">directions</span>
-<span>Directions &amp; Parking Map</span>
-</a>
-<button class="inline-flex items-center justify-center gap-space-xs bg-error-container text-on-error-container px-space-md py-3.5 rounded-xl font-label-lg text-label-lg hover:bg-tertiary-container hover:text-on-tertiary transition-all min-h-[56px] sm:ml-auto" id="btn-open-cancel" type="button">
-<span class="material-symbols-outlined text-2xl">cancel</span>
-<span>Cancel Appointment (रद्द करें)</span>
+<button class="dept-btn flex items-center gap-space-xs px-space-md py-3 rounded-full font-label-md text-label-md whitespace-nowrap bg-surface-container-high text-on-surface hover:bg-primary-fixed hover:text-on-primary-fixed transition-colors" type="button">
+<span class="material-symbols-outlined text-xl">rheumatology</span>
+<span>Orthopedics &amp; Knee (हड्डी रोग)</span>
 </button>
-</div>
-</div>
-</div>
-<!-- Cancellation Confirmation Dialog (Interactive Flow) -->
-<div class="hidden bg-surface-container-high p-space-lg rounded-2xl shadow-md transition-all duration-300" id="cancellation-drawer">
-<div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md mb-space-md">
-<div class="flex items-center gap-space-sm">
-<div class="w-12 h-12 rounded-xl bg-error text-on-error flex items-center justify-center shrink-0">
-<span class="material-symbols-outlined text-2xl">help</span>
-</div>
-<div>
-<h3 class="font-headline-sm text-headline-sm text-on-surface">Are you sure you want to cancel this visit?</h3>
-<p class="font-body-md text-body-md text-on-surface-variant">अपॉइंटमेंट रद्द करने की प्रक्रिया - कोई शुल्क या पेनाल्टी नहीं है</p>
-</div>
-</div>
-<button class="p-2 rounded-full hover:bg-surface-container-highest text-on-surface-variant" id="btn-close-cancel" type="button">
-<span class="material-symbols-outlined text-2xl">close</span>
+<button class="dept-btn flex items-center gap-space-xs px-space-md py-3 rounded-full font-label-md text-label-md whitespace-nowrap bg-surface-container-high text-on-surface hover:bg-primary-fixed hover:text-on-primary-fixed transition-colors" type="button">
+<span class="material-symbols-outlined text-xl">elderly</span>
+<span>Geriatric Medicine (वृद्धावस्था रोग)</span>
 </button>
-</div>
-<!-- Reassurance Banner -->
-<div class="bg-surface-container-lowest p-space-md rounded-xl mb-space-md flex items-start gap-space-sm">
-<span class="material-symbols-outlined text-secondary text-2xl shrink-0 mt-0.5">verified_user</span>
-<div>
-<span class="font-label-lg text-label-lg text-secondary">Zero Penalty Senior Guarantee</span>
-<p class="font-body-md text-body-md text-on-surface-variant mt-0.5">
-            There is <strong>no penalty for cancellation</strong>. Please confirm cancellation at least 2 hours prior so that this urgent slot can be automatically re-allocated to another senior citizen waiting in line.
-          </p>
-</div>
-</div>
-<div class="flex flex-col gap-space-sm mb-space-md">
-<label class="font-label-lg text-label-lg text-on-surface">Reason for cancellation (Optional / कारण चुनें):</label>
-<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-sm">
-<button class="cancel-reason-chip text-left p-space-sm rounded-xl bg-surface-container-lowest hover:bg-surface-container text-on-surface font-body-md text-body-md" type="button">
-            Feeling much better / स्वास्थ्य ठीक है
-          </button>
-<button class="cancel-reason-chip text-left p-space-sm rounded-xl bg-surface-container-lowest hover:bg-surface-container text-on-surface font-body-md text-body-md" type="button">
-            Transport / Rain issue / आने में असमर्थ
-          </button>
-<button class="cancel-reason-chip text-left p-space-sm rounded-xl bg-surface-container-lowest hover:bg-surface-container text-on-surface font-body-md text-body-md" type="button">
-            Want to reschedule for next week
-          </button>
-</div>
-</div>
-<div class="flex flex-wrap items-center gap-space-md">
-<button class="inline-flex items-center justify-center gap-space-xs bg-error text-on-error px-space-lg py-3 rounded-xl font-label-lg text-label-lg hover:opacity-90 min-h-[52px]" id="btn-confirm-cancel" type="button">
-<span class="material-symbols-outlined text-xl">delete_forever</span>
-<span>Confirm &amp; Free Slot (हां, रद्द करें)</span>
-</button>
-<button class="inline-flex items-center justify-center gap-space-xs bg-surface-container-lowest text-primary px-space-md py-3 rounded-xl font-label-lg text-label-lg hover:bg-surface-container min-h-[52px]" id="btn-keep-appointment" type="button">
-<span>Keep My Appointment (अपॉइंटमेंट जारी रखें)</span>
-</button>
-</div>
-</div>
-</div>
-<!-- Tab Content: Past Visits & Prescriptions -->
-<div class="hidden flex flex-col gap-space-lg" id="content-past">
-<div class="bg-surface-container-low p-space-md rounded-2xl flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md">
-<div>
-<h2 class="font-headline-sm text-headline-sm text-on-surface">Your Past Clinical Records (पूर्व परामर्श)</h2>
-<p class="font-body-md text-body-md text-on-surface-variant">Archived prescriptions, lab tests, and fast one-tap re-booking history.</p>
-</div>
-<div class="flex items-center gap-2 text-on-surface-variant font-label-md text-label-md">
-<span class="material-symbols-outlined text-xl text-secondary">cloud_done</span>
-<span>Synced with ABHA Personal Health Record (PHR)</span>
-</div>
-</div>
-<!-- Past Visit 1: Dr Harpreet Singh Anand -->
-<div class="bg-surface-container-low p-space-lg rounded-2xl shadow-sm flex flex-col lg:flex-row items-start lg:items-center justify-between gap-space-lg">
-<div class="flex items-start sm:items-center gap-space-md">
-<img class="w-16 h-16 rounded-xl object-cover shrink-0" data-alt="Portrait photo of an experienced Indian male orthopedic surgeon with a gentle smile, wearing blue hospital scrub tops and glasses in a clean consultation room." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1YZk7MYOy-IUzrnyAwW7CPox5JkVMtyMFE6ZCOtvHTQno1llveOjDnQLWptV1imB04NOTqNiHmGwOZaMoNg5cisZwmLIvZxd_6MKUel5KmbvVgomDVd_wsCFok3De0ag8cz-HLzR9T583povdFHTtoMx3O1ZxuvapfRIUoyg5Mah832LtbRCM0T_AX38la0ISF74EOSQ9AbsAhvqDQszTDtpQsF9KaxSJAWfRyJw"/>
-<div class="flex flex-col">
-<div class="flex items-center gap-2">
-<span class="font-label-md text-label-md text-primary font-bold">Orthopedics &amp; Joint Clinic</span>
-<span class="w-1.5 h-1.5 rounded-full bg-outline-variant"></span>
-<span class="font-body-md text-body-md text-on-surface-variant">Ram Manohar Lohia (RML) Hospital</span>
-</div>
-<h3 class="font-headline-sm text-headline-sm text-on-surface">Dr. Harpreet Singh Anand, MS (Ortho)</h3>
-<p class="font-body-md text-body-md text-on-surface-variant">
-            Consultation on <strong>12 September 2023</strong> • Diagnosis: <em>Bilateral Knee Osteoarthritis Stage II</em>
-</p>
-</div>
-</div>
-<div class="flex flex-wrap items-center gap-space-xs self-stretch lg:self-auto justify-end">
-<button class="inline-flex items-center justify-center gap-2 bg-surface-container-lowest text-primary px-space-md py-3 rounded-xl font-label-md text-label-md hover:bg-surface-container transition-all min-h-[48px]" type="button">
-<span class="material-symbols-outlined text-xl">description</span>
-<span>View Prescription (पर्चा देखें)</span>
-</button>
-<button class="inline-flex items-center justify-center gap-2 bg-primary text-on-primary px-space-md py-3 rounded-xl font-label-md text-label-md hover:bg-primary-container transition-all min-h-[48px]" type="button">
-<span class="material-symbols-outlined text-xl">restart_alt</span>
-<span>Re-book Same Doctor</span>
-</button>
-</div>
-</div>
-<!-- Past Visit 2: Dr Sunita Deshmukh -->
-<div class="bg-surface-container-low p-space-lg rounded-2xl shadow-sm flex flex-col lg:flex-row items-start lg:items-center justify-between gap-space-lg">
-<div class="flex items-start sm:items-center gap-space-md">
-<img class="w-16 h-16 rounded-xl object-cover shrink-0" data-alt="Portrait photo of a professional senior Indian female ophthalmologist with reading glasses and white clinical coat in an eye-check hospital cabin." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA5GqXBqSdvEOgKPJ1-ExIYyOGgCnJD4pEIuH4iRO2rttn4GX7Z5P0NK-XMXsL6C4lNEyHr0jcnhKK-mSmuO5McGAXOqiPplbP3cgF5i_SUctZT1LGxViHQrPDkh9mbdqtUfCDqpV_cx_vXHwQ7aIWTfFK8TO91aGWt3X-tlSr2GCXxqezeS3JdZN-02ChcXZDfRkl290BBscryA6o5FbVnzoZ96FJjBif8op44fi8"/>
-<div class="flex flex-col">
-<div class="flex items-center gap-2">
-<span class="font-label-md text-label-md text-secondary font-bold">Ophthalmology (Eye Clinic)</span>
-<span class="w-1.5 h-1.5 rounded-full bg-outline-variant"></span>
-<span class="font-body-md text-body-md text-on-surface-variant">Safdarjung Hospital</span>
-</div>
-<h3 class="font-headline-sm text-headline-sm text-on-surface">Dr. Sunita Deshmukh, MD (Ophthal)</h3>
-<p class="font-body-md text-body-md text-on-surface-variant">
-            Consultation on <strong>04 August 2023</strong> • Procedure: <em>Cataract Evaluation &amp; Lens Power Check</em>
-</p>
-</div>
-</div>
-<div class="flex flex-wrap items-center gap-space-xs self-stretch lg:self-auto justify-end">
-<button class="inline-flex items-center justify-center gap-2 bg-surface-container-lowest text-primary px-space-md py-3 rounded-xl font-label-md text-label-md hover:bg-surface-container transition-all min-h-[48px]" type="button">
+<button class="dept-btn flex items-center gap-space-xs px-space-md py-3 rounded-full font-label-md text-label-md whitespace-nowrap bg-surface-container-high text-on-surface hover:bg-primary-fixed hover:text-on-primary-fixed transition-colors" type="button">
 <span class="material-symbols-outlined text-xl">visibility</span>
-<span>Cataract Screening Report (जांच रिपोर्ट)</span>
+<span>Eye / Cataract (नेत्र रोग)</span>
 </button>
-<button class="inline-flex items-center justify-center gap-2 bg-primary text-on-primary px-space-md py-3 rounded-xl font-label-md text-label-md hover:bg-primary-container transition-all min-h-[48px]" type="button">
-<span class="material-symbols-outlined text-xl">restart_alt</span>
-<span>Re-book Eye Followup</span>
-</button>
-</div>
-</div>
-<!-- Past Visit 3: Routine Geriatric Health Review -->
-<div class="bg-surface-container-low p-space-lg rounded-2xl shadow-sm flex flex-col lg:flex-row items-start lg:items-center justify-between gap-space-lg">
-<div class="flex items-start sm:items-center gap-space-md">
-<div class="w-16 h-16 rounded-xl bg-surface-container-high flex items-center justify-center text-primary shrink-0">
-<span class="material-symbols-outlined text-3xl">clinical_notes</span>
-</div>
-<div class="flex flex-col">
-<div class="flex items-center gap-2">
-<span class="font-label-md text-label-md text-primary font-bold">General Geriatric Medicine</span>
-<span class="w-1.5 h-1.5 rounded-full bg-outline-variant"></span>
-<span class="font-body-md text-body-md text-on-surface-variant">Delhi Wellness Poly-Clinic</span>
-</div>
-<h3 class="font-headline-sm text-headline-sm text-on-surface">Annual Senior Citizen Blood Panel &amp; Vitals</h3>
-<p class="font-body-md text-body-md text-on-surface-variant">
-            Completed on <strong>15 May 2023</strong> • Lipid Profile, HbA1c &amp; Blood Pressure Normative Review
-          </p>
-</div>
-</div>
-<div class="flex flex-wrap items-center gap-space-xs self-stretch lg:self-auto justify-end">
-<button class="inline-flex items-center justify-center gap-2 bg-surface-container-lowest text-primary px-space-md py-3 rounded-xl font-label-md text-label-md hover:bg-surface-container transition-all min-h-[48px]" type="button">
-<span class="material-symbols-outlined text-xl">lab_profile</span>
-<span>Download Comprehensive Lab PDF</span>
+<button class="dept-btn flex items-center gap-space-xs px-space-md py-3 rounded-full font-label-md text-label-md whitespace-nowrap bg-surface-container-high text-on-surface hover:bg-primary-fixed hover:text-on-primary-fixed transition-colors" type="button">
+<span class="material-symbols-outlined text-xl">glucose</span>
+<span>Diabetology (शुगर / मधुमेह)</span>
 </button>
 </div>
+</section>
+<!-- Doctor Cards Grid -->
+<section class="w-full flex flex-col gap-space-lg mb-space-xl" id="doctors-list">
+<!-- Doctor Card 1: Arvind Kasliwal -->
+<article class="bg-surface-container-lowest rounded-xl p-space-lg shadow-md hover:shadow-lg transition-all duration-200">
+<div class="flex flex-col lg:flex-row gap-space-lg">
+<!-- Doctor Visual & Quick Trust Badge -->
+<div class="flex flex-col sm:flex-row lg:flex-col items-center sm:items-start lg:items-center text-center sm:text-left lg:text-center w-full lg:w-64 shrink-0">
+<div class="relative mb-space-sm">
+<img class="w-36 h-36 rounded-xl object-cover shadow-sm bg-surface-container-high" data-alt="A portrait of an experienced Indian senior male cardiologist in his late 50s wearing formal professional attire with a white medical coat and stethoscope, smiling warmly in a bright modern AIIMS consultation room" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAu7m_t_7_Rriv9EKhufxhW4jPmqS3iAv3UuQwiV_0OkP7v_f7Iw8D-BKt7-YsPEMpa1-en0yJT0ph45ZU_-_LofeYCk2DTwvupPUo-QR55E5FdNwdFmdmWqGQHJkbGTqLCIirHq6ovzYC7nR27-icYnrSxQmmMbnrK9phOPBrhUJ2Wt2bDCwNuQ6ZAn-yPP-0cqynCPD-6zrISo1mFwcqqb6XysRd6g7c6ccbE54U"/>
+<span class="absolute -bottom-2 -right-2 bg-secondary text-on-secondary text-xs font-bold px-2 py-1 rounded-full shadow flex items-center gap-0.5">
+<span class="material-symbols-outlined text-sm">verified</span> Verified
+            </span>
 </div>
+<div class="flex items-center gap-1 bg-surface-container px-space-sm py-1 rounded-full mt-1">
+<span class="material-symbols-outlined text-amber-500 text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-md text-label-md font-bold text-on-surface">4.9 / 5.0</span>
+<span class="text-xs text-on-surface-variant">(920 seniors)</span>
 </div>
-<!-- Tab Content: Cancelled Slots -->
-<div class="hidden flex flex-col gap-space-md" id="content-cancelled">
-<div class="bg-surface-container-low p-space-xl rounded-2xl text-center flex flex-col items-center justify-center py-12">
-<div class="w-16 h-16 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface-variant mb-space-sm">
-<span class="material-symbols-outlined text-3xl">event_busy</span>
+<span class="font-label-md text-label-md text-secondary font-bold mt-2">26 Years Experience</span>
+<span class="text-xs text-on-surface-variant font-medium">Former Professor, AIIMS</span>
 </div>
-<h3 class="font-headline-sm text-headline-sm text-on-surface">No Cancelled Appointments</h3>
-<p class="font-body-md text-body-md text-on-surface-variant max-w-md mt-1">
-        You have zero pending cancellations. All previously registered requests were either completed or safely rescheduled.
-      </p>
-</div>
-</div>
-<!-- Hospital Location & Navigation Section (Anchor target) -->
-<div class="mt-space-xl pt-space-lg flex flex-col gap-space-md" id="hospital-map-section">
-<div class="flex items-center justify-between">
+<!-- Doctor Details Body -->
+<div class="flex-1 flex flex-col justify-between">
 <div>
-<h2 class="font-headline-md text-headline-md text-on-surface">AIIMS Hospital Directions &amp; Senior Access Gates</h2>
-<p class="font-body-md text-body-md text-on-surface-variant">Accessible drop-off zones, dedicated senior parking, and battery cart route.</p>
-</div>
-<span class="bg-secondary-fixed text-on-secondary-fixed px-3 py-1.5 rounded-lg font-label-md text-label-md hidden sm:inline-flex items-center gap-1">
-<span class="material-symbols-outlined text-lg">accessible</span> Dedicated Elder Pathway
-      </span>
-</div>
-<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
-<div class="lg:col-span-8 overflow-hidden rounded-2xl shadow-sm relative min-h-[280px]">
-<div class="w-full h-full min-h-[280px] bg-cover bg-center" data-location="AIIMS Ansari Nagar New Delhi" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDxlT3IC5DXPWn135obfqleZ8tsl7qEdBvDpzwJviywouSvcqkOm4CxX92PzhwprbN0tLxNFNzYDorJNqsmjfYXgCIUoqlFSbnuk5cAkATNeyvt7FF_-FsJ4qz0rvEa2qUHr2fl4a5t3U9s1vq7Cy1GiCryzCqWREFGTYtcTpoCqnAwfFtq5LLUp1cDluyHTJdnGCNOhmLaAm2TCrFeZvwG0C4hXtmwxkXtK-ph5Eo')"></div>
-<div class="absolute bottom-4 left-4 right-4 bg-surface-container-lowest/95 backdrop-blur-md p-space-sm rounded-xl shadow-md flex items-center justify-between">
-<div class="flex items-center gap-2">
-<span class="material-symbols-outlined text-primary text-2xl">pin_drop</span>
-<span class="font-label-md text-label-md text-on-surface font-bold">Gate 2 Entry: Priority Ramp &amp; Wheelchair Counter</span>
-</div>
-<a class="bg-primary text-on-primary px-3 py-1.5 rounded-lg font-label-md text-label-md inline-flex items-center gap-1" href="https://maps.google.com" rel="noopener noreferrer" target="_blank">
-<span>Open in GPS</span>
-<span class="material-symbols-outlined text-sm">open_in_new</span>
-</a>
-</div>
-</div>
-<div class="lg:col-span-4 flex flex-col gap-space-sm">
-<div class="bg-surface-container-low p-space-md rounded-xl flex items-start gap-space-sm">
-<span class="material-symbols-outlined text-secondary text-2xl shrink-0 mt-0.5">electric_rickshaw</span>
+<div class="flex flex-wrap items-start justify-between gap-space-xs mb-space-xs">
 <div>
-<span class="font-label-lg text-label-lg text-on-surface">Free Battery Rickshaw Service</span>
-<p class="font-body-md text-body-md text-on-surface-variant">Available from Gate 2 directly to OPD Block Room 204 for seniors over 60.</p>
+<h3 class="font-headline-md text-headline-md text-primary tracking-tight">
+                  Dr. Arvind Kasliwal
+                </h3>
+<p class="font-label-md text-label-md text-on-surface-variant">
+                  MD, DM (Cardiology), FACC • Chief Interventional Cardiologist
+                </p>
+</div>
+<span class="inline-flex items-center gap-1 bg-secondary-fixed text-on-secondary-fixed font-bold font-label-md text-label-md px-space-sm py-1 rounded-lg">
+<span class="material-symbols-outlined text-base">volunteer_activism</span>
+                Free with Ayushman Golden Card
+              </span>
+</div>
+<!-- Clinic & Room Location -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-sm my-space-sm bg-surface-container-low p-space-sm rounded-lg">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-xl">domain</span>
+<span class="font-body-md text-body-md text-on-surface">AIIMS New Delhi, OPD Block A, Room 204</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-xl">translate</span>
+<span class="font-body-md text-body-md text-on-surface">Hindi (हिंदी), English, Punjabi (ਪੰਜਾਬੀ)</span>
 </div>
 </div>
-<div class="bg-surface-container-low p-space-md rounded-xl flex items-start gap-space-sm">
-<span class="material-symbols-outlined text-primary text-2xl shrink-0 mt-0.5">local_parking</span>
+<!-- Senior Care Specific Badge / Comfort Perk -->
+<div class="flex items-start gap-space-xs bg-surface-container-highest p-space-sm rounded-lg mb-space-md">
+<span class="material-symbols-outlined text-primary text-xl shrink-0 mt-0.5">sentiment_very_satisfied</span>
+<p class="font-body-md text-body-md text-on-surface">
+<strong class="font-bold text-primary">Senior Friendly:</strong> Explains treatment patiently, writes large clear prescriptions, and provides printed medicine timetables.
+              </p>
+</div>
+</div>
+<!-- Availability & Interactive Buttons -->
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-space-md pt-space-sm bg-surface-container-low/60 p-space-sm rounded-xl">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-2xl">schedule</span>
 <div>
-<span class="font-label-lg text-label-lg text-on-surface">Reserved Senior Parking</span>
-<p class="font-body-md text-body-md text-on-surface-variant">Underground Bay P-1 has direct wheelchair lifts to OPD floors.</p>
-</div>
-</div>
-<div class="bg-surface-container-low p-space-md rounded-xl flex items-start gap-space-sm">
-<span class="material-symbols-outlined text-primary text-2xl shrink-0 mt-0.5">desk</span>
-<div>
-<span class="font-label-lg text-label-lg text-on-surface">Elder May I Help You Counter</span>
-<p class="font-body-md text-body-md text-on-surface-variant">Located 15 meters inside Gate 2 foyer. Attendant on duty: 8:00 AM to 5:00 PM.</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!-- Immediate Senior Support Emergency Assistance Bar -->
-<div class="mt-space-xl p-space-lg rounded-2xl bg-surface-container-high flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md shadow-sm">
-<div class="flex items-center gap-space-md">
-<div class="w-14 h-14 rounded-2xl bg-primary text-on-primary flex items-center justify-center shrink-0">
-<span class="material-symbols-outlined text-3xl">support_agent</span>
-</div>
-<div>
-<span class="font-headline-sm text-headline-sm text-primary">Need Immediate Assistance with Your Visit?</span>
-<p class="font-body-md text-body-md text-on-surface-variant">
-          Speak to a live government eldercare advisor or AIIMS emergency helpdesk.
-        </p>
+<p class="text-xs font-semibold text-on-surface-variant uppercase tracking-wider">Next Available Slot</p>
+<p class="font-headline-sm text-headline-sm text-secondary font-bold">Tomorrow (Wed) - 10:00 AM</p>
 </div>
 </div>
 <div class="flex flex-wrap items-center gap-space-sm">
-<a class="inline-flex items-center gap-2 bg-secondary text-on-secondary px-space-md py-3 rounded-xl font-label-lg text-label-lg shadow-sm hover:opacity-90 transition-all min-h-[52px]" href="tel:14555">
-<span class="material-symbols-outlined text-xl">phone</span>
-<span>Call Elderline: 14555</span>
+<button class="listen-btn flex items-center justify-center gap-1 bg-surface-container-high hover:bg-surface-container-highest text-on-surface px-space-sm py-3 rounded-lg font-label-md text-label-md min-h-[56px] transition-colors" data-bio="Dr. Arvind Kasliwal has 26 years of cardiology experience at AIIMS. Available tomorrow at 10 AM in Room 204. Consultation is fully free under Senior PM-JAY." type="button">
+<span class="material-symbols-outlined text-xl text-primary">campaign</span>
+<span>Listen Bio (परिचय सुनें)</span>
+</button>
+<button class="flex-1 sm:flex-none flex items-center justify-center gap-space-xs bg-primary hover:bg-primary-container text-on-primary px-space-lg py-3 rounded-xl font-label-lg text-label-lg min-h-[56px] shadow transition-all active:scale-95" type="button">
+<span class="material-symbols-outlined text-2xl">calendar_month</span>
+<span>Book with Dr. Kasliwal</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</article>
+<!-- Doctor Card 2: Sunita Deshmukh -->
+<article class="bg-surface-container-lowest rounded-xl p-space-lg shadow-md hover:shadow-lg transition-all duration-200">
+<div class="flex flex-col lg:flex-row gap-space-lg">
+<!-- Doctor Visual & Quick Trust Badge -->
+<div class="flex flex-col sm:flex-row lg:flex-col items-center sm:items-start lg:items-center text-center sm:text-left lg:text-center w-full lg:w-64 shrink-0">
+<div class="relative mb-space-sm">
+<img class="w-36 h-36 rounded-xl object-cover shadow-sm bg-surface-container-high" data-alt="A dignified senior Indian female ophthalmologist wearing glasses, smiling gently in her clinical eye hospital office with advanced diagnostic ophthalmic equipment in the soft background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDg1Oyr2HwYekBvJuuQo78jmLUSYLfRq8BtJJ7RedhpZYtg0_03FojGuMGt4nhZZVLEK_YByz_Jfc_JmjXGCY-_puaFHg2JJGsxJ_m0v7PNv3g1E26nQ_k-7CKOErSTlvvddIK4Z0tikee06ymxMwBcJ3CMmzJdWGUgooNue9AaiWKavbw6jAsfUUAlexXQmdshNsMk4resvO0AqpFp6KVJdkqyAlFTUWseAjH3ChA"/>
+<span class="absolute -bottom-2 -right-2 bg-secondary text-on-secondary text-xs font-bold px-2 py-1 rounded-full shadow flex items-center gap-0.5">
+<span class="material-symbols-outlined text-sm">verified</span> Verified
+            </span>
+</div>
+<div class="flex items-center gap-1 bg-surface-container px-space-sm py-1 rounded-full mt-1">
+<span class="material-symbols-outlined text-amber-500 text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-md text-label-md font-bold text-on-surface">4.8 / 5.0</span>
+<span class="text-xs text-on-surface-variant">(640 seniors)</span>
+</div>
+<span class="font-label-md text-label-md text-secondary font-bold mt-2">19 Years Experience</span>
+<span class="text-xs text-on-surface-variant font-medium">Head of Cataract Unit</span>
+</div>
+<!-- Doctor Details Body -->
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<div class="flex flex-wrap items-start justify-between gap-space-xs mb-space-xs">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary tracking-tight">
+                  Dr. Sunita Deshmukh
+                </h3>
+<p class="font-label-md text-label-md text-on-surface-variant">
+                  MS (Ophthalmology) • Specialist in Senior Cataract &amp; Glaucoma
+                </p>
+</div>
+<span class="inline-flex items-center gap-1 bg-secondary-fixed text-on-secondary-fixed font-bold font-label-md text-label-md px-space-sm py-1 rounded-lg">
+<span class="material-symbols-outlined text-base">visibility</span>
+                Painless Laser Cataract Expert
+              </span>
+</div>
+<!-- Clinic & Room Location -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-sm my-space-sm bg-surface-container-low p-space-sm rounded-lg">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-xl">domain</span>
+<span class="font-body-md text-body-md text-on-surface">Safdarjung Hospital, Eye Centre (Cabin 12)</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-xl">translate</span>
+<span class="font-body-md text-body-md text-on-surface">Hindi (हिंदी), English, Marathi (मराठी)</span>
+</div>
+</div>
+<!-- Senior Care Specific Badge / Comfort Perk -->
+<div class="flex items-start gap-space-xs bg-surface-container-highest p-space-sm rounded-lg mb-space-md">
+<span class="material-symbols-outlined text-primary text-xl shrink-0 mt-0.5">medication</span>
+<p class="font-body-md text-body-md text-on-surface">
+<strong class="font-bold text-primary">Senior Perk:</strong> Specializes in zero-stitch painless laser cataract surgeries. Complete post-op eye drops kit provided free for elderly patients.
+              </p>
+</div>
+</div>
+<!-- Availability & Interactive Buttons -->
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-space-md pt-space-sm bg-surface-container-low/60 p-space-sm rounded-xl">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-2xl">schedule</span>
+<div>
+<p class="text-xs font-semibold text-on-surface-variant uppercase tracking-wider">Next Available Slot</p>
+<p class="font-headline-sm text-headline-sm text-secondary font-bold">Tomorrow (Wed) - 11:30 AM</p>
+</div>
+</div>
+<div class="flex flex-wrap items-center gap-space-sm">
+<button class="listen-btn flex items-center justify-center gap-1 bg-surface-container-high hover:bg-surface-container-highest text-on-surface px-space-sm py-3 rounded-lg font-label-md text-label-md min-h-[56px] transition-colors" data-bio="Dr. Sunita Deshmukh has 19 years experience in cataract and glaucoma surgeries at Safdarjung Hospital. Available tomorrow at 11:30 AM." type="button">
+<span class="material-symbols-outlined text-xl text-primary">campaign</span>
+<span>Listen Bio (परिचय सुनें)</span>
+</button>
+<button class="flex-1 sm:flex-none flex items-center justify-center gap-space-xs bg-primary hover:bg-primary-container text-on-primary px-space-lg py-3 rounded-xl font-label-lg text-label-lg min-h-[56px] shadow transition-all active:scale-95" type="button">
+<span class="material-symbols-outlined text-2xl">calendar_month</span>
+<span>Book with Dr. Deshmukh</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</article>
+<!-- Doctor Card 3: Harpreet Singh Anand -->
+<article class="bg-surface-container-lowest rounded-xl p-space-lg shadow-md hover:shadow-lg transition-all duration-200">
+<div class="flex flex-col lg:flex-row gap-space-lg">
+<!-- Doctor Visual & Quick Trust Badge -->
+<div class="flex flex-col sm:flex-row lg:flex-col items-center sm:items-start lg:items-center text-center sm:text-left lg:text-center w-full lg:w-64 shrink-0">
+<div class="relative mb-space-sm">
+<img class="w-36 h-36 rounded-xl object-cover shadow-sm bg-surface-container-high" data-alt="A compassionate Indian Sikh doctor with a turban and white clinical coat, holding an anatomical knee model in an orthopedic outpatient clinic at Ram Manohar Lohia Hospital" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBuaLd4dqXHKIQe4MuPA3KjGn4z5twD0YoQNOgkk52V9q0FmaaP1IF_mmkBpP-o0CvGpyCm34emGbKwoO-Fxx7gBvJthdN3Z36ZH3MkGRbn7I3uKtPi6EVg7NmlohWjwhtcT2r5c_71WMR6VgnsxdDqU48u_6WIohYoiW58dNlebaLJB2pw5pLa81KG9SBVWmJfqOlCuFfRjT3q1W8t8f6isezVHCsGZ_urwNzyZzg"/>
+<span class="absolute -bottom-2 -right-2 bg-secondary text-on-secondary text-xs font-bold px-2 py-1 rounded-full shadow flex items-center gap-0.5">
+<span class="material-symbols-outlined text-sm">verified</span> Verified
+            </span>
+</div>
+<div class="flex items-center gap-1 bg-surface-container px-space-sm py-1 rounded-full mt-1">
+<span class="material-symbols-outlined text-amber-500 text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-md text-label-md font-bold text-on-surface">4.9 / 5.0</span>
+<span class="text-xs text-on-surface-variant">(1,120 seniors)</span>
+</div>
+<span class="font-label-md text-label-md text-secondary font-bold mt-2">22 Years Experience</span>
+<span class="text-xs text-on-surface-variant font-medium">Chief Orthopedic Surgeon</span>
+</div>
+<!-- Doctor Details Body -->
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<div class="flex flex-wrap items-start justify-between gap-space-xs mb-space-xs">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary tracking-tight">
+                  Dr. Harpreet Singh Anand
+                </h3>
+<p class="font-label-md text-label-md text-on-surface-variant">
+                  MS (Orthopedics), MCh • Joint Replacement &amp; Senior Mobility Specialist
+                </p>
+</div>
+<span class="inline-flex items-center gap-1 bg-secondary-fixed text-on-secondary-fixed font-bold font-label-md text-label-md px-space-sm py-1 rounded-lg">
+<span class="material-symbols-outlined text-base">accessible</span>
+                Knee Arthritis Specialist
+              </span>
+</div>
+<!-- Clinic & Room Location -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-sm my-space-sm bg-surface-container-low p-space-sm rounded-lg">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-xl">domain</span>
+<span class="font-body-md text-body-md text-on-surface">Dr. RML Hospital, OPD Hall 3, Desk 14</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-xl">translate</span>
+<span class="font-body-md text-body-md text-on-surface">Hindi (हिंदी), English, Punjabi (ਪੰਜਾਬੀ)</span>
+</div>
+</div>
+<!-- Senior Care Specific Badge / Comfort Perk -->
+<div class="flex items-start gap-space-xs bg-surface-container-highest p-space-sm rounded-lg mb-space-md">
+<span class="material-symbols-outlined text-primary text-xl shrink-0 mt-0.5">assist_walker</span>
+<p class="font-body-md text-body-md text-on-surface">
+<strong class="font-bold text-primary">Senior Perk:</strong> Emphasizes non-surgical joint rehabilitation first. Free walking stick assessment and knee braces sanctioned under government aids.
+              </p>
+</div>
+</div>
+<!-- Availability & Interactive Buttons -->
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-space-md pt-space-sm bg-surface-container-low/60 p-space-sm rounded-xl">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-2xl">schedule</span>
+<div>
+<p class="text-xs font-semibold text-on-surface-variant uppercase tracking-wider">Next Available Slot</p>
+<p class="font-headline-sm text-headline-sm text-secondary font-bold">Thursday - 09:30 AM</p>
+</div>
+</div>
+<div class="flex flex-wrap items-center gap-space-sm">
+<button class="listen-btn flex items-center justify-center gap-1 bg-surface-container-high hover:bg-surface-container-highest text-on-surface px-space-sm py-3 rounded-lg font-label-md text-label-md min-h-[56px] transition-colors" data-bio="Dr. Harpreet Singh Anand specializes in senior knee pain, arthritis and joint health at RML Hospital. Available Thursday morning at 9:30 AM." type="button">
+<span class="material-symbols-outlined text-xl text-primary">campaign</span>
+<span>Listen Bio (परिचय सुनें)</span>
+</button>
+<button class="flex-1 sm:flex-none flex items-center justify-center gap-space-xs bg-primary hover:bg-primary-container text-on-primary px-space-lg py-3 rounded-xl font-label-lg text-label-lg min-h-[56px] shadow transition-all active:scale-95" type="button">
+<span class="material-symbols-outlined text-2xl">calendar_month</span>
+<span>Book with Dr. Anand</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</article>
+<!-- Doctor Card 4: Meenakshi Sundaram -->
+<article class="bg-surface-container-lowest rounded-xl p-space-lg shadow-md hover:shadow-lg transition-all duration-200">
+<div class="flex flex-col lg:flex-row gap-space-lg">
+<!-- Doctor Visual & Quick Trust Badge -->
+<div class="flex flex-col sm:flex-row lg:flex-col items-center sm:items-start lg:items-center text-center sm:text-left lg:text-center w-full lg:w-64 shrink-0">
+<div class="relative mb-space-sm">
+<img class="w-36 h-36 rounded-xl object-cover shadow-sm bg-surface-container-high" data-alt="A portrait of an experienced South Indian female physician in her 50s with stethoscope, wearing an elegant saree under her doctor coat, smiling reassuringly in a geriatric consultation ward" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBg9zKA-yeoDYcxRAGE_XZHQ0A0STMOhf6smmLSmYoY92V-M4MlbX4BlgkSBrdEJHYh-27x8ljRk9Xr_rxEwL-OAgbOSNVIwh_O3HsNjtwUqUPquTBkpDfoU8QERVavPERC_qKIE1ldLyxY_J7BfIbwPXE5ZSt1fQpcz5AVJnA1dxj-BqofjrAwEkK0dtLW7QHk_0HZZdCfpTuoZuBpQDywBPzFwbYeVGDAwE4uIhw"/>
+<span class="absolute -bottom-2 -right-2 bg-secondary text-on-secondary text-xs font-bold px-2 py-1 rounded-full shadow flex items-center gap-0.5">
+<span class="material-symbols-outlined text-sm">verified</span> Verified
+            </span>
+</div>
+<div class="flex items-center gap-1 bg-surface-container px-space-sm py-1 rounded-full mt-1">
+<span class="material-symbols-outlined text-amber-500 text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-md text-label-md font-bold text-on-surface">5.0 / 5.0</span>
+<span class="text-xs text-on-surface-variant">(850 seniors)</span>
+</div>
+<span class="font-label-md text-label-md text-secondary font-bold mt-2">18 Years Experience</span>
+<span class="text-xs text-on-surface-variant font-medium">Head, Department of Geriatrics</span>
+</div>
+<!-- Doctor Details Body -->
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<div class="flex flex-wrap items-start justify-between gap-space-xs mb-space-xs">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary tracking-tight">
+                  Dr. Meenakshi Sundaram
+                </h3>
+<p class="font-label-md text-label-md text-on-surface-variant">
+                  MD (Geriatric &amp; General Medicine), FRCP • Senior Citizen Multi-Care
+                </p>
+</div>
+<span class="inline-flex items-center gap-1 bg-secondary-fixed text-on-secondary-fixed font-bold font-label-md text-label-md px-space-sm py-1 rounded-lg">
+<span class="material-symbols-outlined text-base">diversity_1</span>
+                Holistic Senior Evaluation
+              </span>
+</div>
+<!-- Clinic & Room Location -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-sm my-space-sm bg-surface-container-low p-space-sm rounded-lg">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-xl">domain</span>
+<span class="font-body-md text-body-md text-on-surface">AIIMS New Delhi, Geriatric Wing, Cabin 102</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-xl">translate</span>
+<span class="font-body-md text-body-md text-on-surface">Hindi (हिंदी), English, Tamil (தமிழ்)</span>
+</div>
+</div>
+<!-- Senior Care Specific Badge / Comfort Perk -->
+<div class="flex items-start gap-space-xs bg-surface-container-highest p-space-sm rounded-lg mb-space-md">
+<span class="material-symbols-outlined text-primary text-xl shrink-0 mt-0.5">pill</span>
+<p class="font-body-md text-body-md text-on-surface">
+<strong class="font-bold text-primary">Senior Perk:</strong> Reviews all existing medications together to stop dangerous drug interactions. Provides lifestyle &amp; diet plan tailored for elders.
+              </p>
+</div>
+</div>
+<!-- Availability & Interactive Buttons -->
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-space-md pt-space-sm bg-surface-container-low/60 p-space-sm rounded-xl">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-2xl">schedule</span>
+<div>
+<p class="text-xs font-semibold text-on-surface-variant uppercase tracking-wider">Next Available Slot</p>
+<p class="font-headline-sm text-headline-sm text-secondary font-bold">Thursday - 10:15 AM</p>
+</div>
+</div>
+<div class="flex flex-wrap items-center gap-space-sm">
+<button class="listen-btn flex items-center justify-center gap-1 bg-surface-container-high hover:bg-surface-container-highest text-on-surface px-space-sm py-3 rounded-lg font-label-md text-label-md min-h-[56px] transition-colors" data-bio="Dr. Meenakshi Sundaram is head of Geriatric Medicine at AIIMS, proficient in Tamil, Hindi, and English. Available Thursday at 10:15 AM." type="button">
+<span class="material-symbols-outlined text-xl text-primary">campaign</span>
+<span>Listen Bio (परिचय सुनें)</span>
+</button>
+<button class="flex-1 sm:flex-none flex items-center justify-center gap-space-xs bg-primary hover:bg-primary-container text-on-primary px-space-lg py-3 rounded-xl font-label-lg text-label-lg min-h-[56px] shadow transition-all active:scale-95" type="button">
+<span class="material-symbols-outlined text-2xl">calendar_month</span>
+<span>Book with Dr. Sundaram</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</article>
+</section>
+<!-- Direct Nurse Support Callout -->
+<section class="w-full bg-primary text-on-primary rounded-xl p-space-lg shadow-lg flex flex-col md:flex-row items-center justify-between gap-space-lg">
+<div class="flex items-start sm:items-center gap-space-md">
+<div class="w-16 h-16 rounded-full bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center shrink-0 shadow">
+<span class="material-symbols-outlined text-3xl">medical_services</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-on-primary">
+          Confused about which doctor to visit? (सही डॉक्टर नहीं चुन पा रहे?)
+        </h3>
+<p class="font-body-md text-body-md text-on-primary-container mt-1">
+          Our verified hospital nurse will listen to your symptoms, review your medicines, and book the most appropriate specialist for you.
+        </p>
+</div>
+</div>
+<a class="w-full md:w-auto inline-flex items-center justify-center gap-space-sm bg-secondary text-on-secondary px-space-xl py-4 rounded-xl font-label-lg text-label-lg hover:bg-secondary-container hover:text-on-secondary-container transition-all shadow-md min-h-[60px] whitespace-nowrap active:scale-95" href="tel:18004190123">
+<span class="material-symbols-outlined text-2xl">support_agent</span>
+<div class="flex flex-col text-left leading-none">
+<span class="text-xs uppercase font-semibold tracking-wider">Chief Nurse Helpdesk</span>
+<span class="text-xl font-extrabold">1800-419-0123 (Free)</span>
+</div>
 </a>
-<a class="inline-flex items-center gap-2 bg-surface-container-lowest text-primary px-space-md py-3 rounded-xl font-label-lg text-label-lg hover:bg-surface-container transition-all min-h-[52px]" href="tel:01126588500">
-<span class="material-symbols-outlined text-xl">call</span>
-<span>AIIMS Desk: 011-26588500</span>
-</a>
+</section>
 </div>
-</div>
-</div>
+<!-- Accessible Interaction Script -->
 <script>
-  // Simple accessible interactivity without frameworks
-  (function initSeniorAppointmentsPortal() {
-    // Tab switching
-    const tabUpcoming = document.getElementById('tab-upcoming');
-    const tabPast = document.getElementById('tab-past');
-    const tabCancelled = document.getElementById('tab-cancelled');
-
-    const contentUpcoming = document.getElementById('content-upcoming');
-    const contentPast = document.getElementById('content-past');
-    const contentCancelled = document.getElementById('content-cancelled');
-
-    const tabs = [
-      { btn: tabUpcoming, content: contentUpcoming },
-      { btn: tabPast, content: contentPast },
-      { btn: tabCancelled, content: contentCancelled }
-    ];
-
-    tabs.forEach(({ btn, content }) => {
-      btn.addEventListener('click', () => {
-        tabs.forEach(t => {
-          t.btn.classList.remove('bg-surface-container-lowest', 'text-primary', 'shadow-sm');
-          t.btn.classList.add('text-on-surface-variant');
-          t.btn.setAttribute('aria-selected', 'false');
-          t.content.classList.add('hidden');
-        });
-
-        btn.classList.add('bg-surface-container-lowest', 'text-primary', 'shadow-sm');
-        btn.classList.remove('text-on-surface-variant');
-        btn.setAttribute('aria-selected', 'true');
-        content.classList.remove('hidden');
-      });
-    });
-
-    // Cancellation Drawer Toggle
-    const cancelDrawer = document.getElementById('cancellation-drawer');
-    const btnOpenCancel = document.getElementById('btn-open-cancel');
-    const btnCloseCancel = document.getElementById('btn-close-cancel');
-    const btnKeep = document.getElementById('btn-keep-appointment');
-    const btnConfirmCancel = document.getElementById('btn-confirm-cancel');
-
-    if (btnOpenCancel && cancelDrawer) {
-      btnOpenCancel.addEventListener('click', () => {
-        cancelDrawer.classList.toggle('hidden');
-        if (!cancelDrawer.classList.contains('hidden')) {
-          cancelDrawer.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-        }
-      });
-    }
-
-    if (btnCloseCancel) {
-      btnCloseCancel.addEventListener('click', () => {
-        cancelDrawer.classList.add('hidden');
-      });
-    }
-
-    if (btnKeep) {
-      btnKeep.addEventListener('click', () => {
-        cancelDrawer.classList.add('hidden');
-      });
-    }
-
-    if (btnConfirmCancel) {
-      btnConfirmCancel.addEventListener('click', () => {
-        alert('Your appointment has been cancelled with zero penalty. The slot has been released for fellow seniors. A SMS confirmation has been sent to your registered mobile number.');
-        cancelDrawer.classList.add('hidden');
-      });
-    }
-
-    // Cancellation chips
-    const reasonChips = document.querySelectorAll('.cancel-reason-chip');
-    reasonChips.forEach(chip => {
-      chip.addEventListener('click', () => {
-        reasonChips.forEach(c => c.classList.remove('bg-primary', 'text-on-primary'));
-        chip.classList.add('bg-primary', 'text-on-primary');
-      });
-    });
-
-    // Web Speech API Voice Reader Support
-    const ttsPageBtn = document.getElementById('tts-page-btn');
-    const ttsCardBtn = document.getElementById('btn-read-appointment-card');
-    let isSpeaking = false;
-
-    function speakText(text) {
-      if (!('speechSynthesis' in window)) {
-        alert('Audio reader is supported in modern browsers (Chrome, Edge, Safari).');
-        return;
-      }
-
+  // Simple Voice synthesis reader for Seniors
+  function speakText(text) {
+    if ('speechSynthesis' in window) {
       window.speechSynthesis.cancel();
-
-      if (isSpeaking) {
-        isSpeaking = false;
-        if (ttsPageBtn) {
-          document.getElementById('tts-btn-label').textContent = 'Read Appointments Aloud (सुनें)';
-        }
-        return;
-      }
-
       const utterance = new SpeechSynthesisUtterance(text);
-      utterance.rate = 0.9; // Slightly slower for elderly comprehension
+      utterance.rate = 0.88; // Slower cadence for clarity
       utterance.pitch = 1.0;
-
-      utterance.onend = () => {
-        isSpeaking = false;
-        if (ttsPageBtn) {
-          document.getElementById('tts-btn-label').textContent = 'Read Appointments Aloud (सुनें)';
-        }
-      };
-
-      utterance.onerror = () => {
-        isSpeaking = false;
-        if (ttsPageBtn) {
-          document.getElementById('tts-btn-label').textContent = 'Read Appointments Aloud (सुनें)';
-        }
-      };
-
-      isSpeaking = true;
-      if (ttsPageBtn) {
-        document.getElementById('tts-btn-label').textContent = 'Stop Reading (आवाज बंद करें)';
-      }
+      utterance.lang = 'en-IN';
       window.speechSynthesis.speak(utterance);
+    } else {
+      alert("Voice playback is not supported in this browser. Please call 1800-419-0123 for assistance.");
     }
+  }
 
-    if (ttsPageBtn) {
-      ttsPageBtn.addEventListener('click', () => {
-        const textToRead = "You have one confirmed appointment tomorrow, Wednesday 24 October at 10:00 AM with Doctor Arvind Kasliwal, Cardiologist, at AIIMS New Delhi OPD Room 204. Your token number is B-14. Wheelchair is requested at Gate 2.";
-        speakText(textToRead);
-      });
-    }
+  // Hook bio buttons
+  document.querySelectorAll('.listen-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      const bio = btn.getAttribute('data-bio');
+      if (bio) {
+        speakText(bio);
+      }
+    });
+  });
 
-    if (ttsCardBtn) {
-      ttsCardBtn.addEventListener('click', () => {
-        const appointmentDetails = "Doctor Arvind Kasliwal, MD DM Cardiology. Hospital: AIIMS Ansari Nagar Delhi. Reporting tomorrow 10:00 AM. Token Number B-14. Patient: Ramesh Chandra Sharma. Wheelchair assistance booked at Gate 2.";
-        speakText(appointmentDetails);
-      });
-    }
-  })();
+  // Top summary audio hook
+  const summaryBtn = document.getElementById('tts-summary-btn');
+  if (summaryBtn) {
+    summaryBtn.addEventListener('click', () => {
+      const summary = "Showing four senior doctors available for appointment at AIIMS and partner hospitals. Dr. Arvind Kasliwal in Cardiology, Dr. Sunita Deshmukh in Eye Care, Dr. Harpreet Singh Anand in Orthopedics, and Dr. Meenakshi Sundaram in Geriatric Medicine. Tap on any doctor to confirm your booking.";
+      speakText(summary);
+    });
+  }
+
+  // Big font toggle mode
+  const fontToggleBtn = document.getElementById('toggle-font-btn');
+  let isBig = false;
+  if (fontToggleBtn) {
+    fontToggleBtn.addEventListener('click', () => {
+      isBig = !isBig;
+      const list = document.getElementById('doctors-list');
+      if (isBig) {
+        list.classList.add('scale-105', 'origin-top');
+        fontToggleBtn.classList.add('bg-primary', 'text-on-primary');
+        fontToggleBtn.classList.remove('bg-surface-container-high', 'text-primary');
+      } else {
+        list.classList.remove('scale-105', 'origin-top');
+        fontToggleBtn.classList.remove('bg-primary', 'text-on-primary');
+        fontToggleBtn.classList.add('bg-surface-container-high', 'text-primary');
+      }
+    });
+  }
 </script></div></main><aside class="fixed bottom-space-lg right-space-lg z-50"><button class="flex items-center gap-space-xs bg-secondary text-on-secondary px-space-md py-space-sm rounded-full shadow-lg hover:bg-primary transition-all scale-105 font-label-lg text-label-lg" type="button"><span class="material-symbols-outlined text-2xl">record_voice_over</span><span>Voice Reader Aloud</span></button></aside><footer class="w-full bg-surface-container-low text-on-surface pt-space-xl pb-space-lg shadow-[0_-1px_8px_rgba(0,0,0,0.03)]"><div class="max-w-7xl mx-auto px-margin flex flex-col gap-space-xl"><div class="grid grid-cols-1 md:grid-cols-3 gap-gutter"><div class="bg-surface-container-lowest p-space-lg rounded-xl flex items-start gap-space-md"><span class="material-symbols-outlined text-error text-3xl">emergency</span><div><h4 class="font-headline-sm text-headline-sm text-error">Emergency Medical 108</h4><p class="font-body-md text-body-md text-on-surface-variant">Free 24x7 Ambulance with Oxygen &amp; EMT Support</p></div></div><div class="bg-surface-container-lowest p-space-lg rounded-xl flex items-start gap-space-md"><span class="material-symbols-outlined text-secondary text-3xl">support_agent</span><div><h4 class="font-headline-sm text-headline-sm text-primary">Elderline: 14555</h4><p class="font-body-md text-body-md text-on-surface-variant">Toll-Free Senior Citizen Dedicated Support Line</p></div></div><div class="bg-surface-container-lowest p-space-lg rounded-xl flex items-start gap-space-md"><span class="material-symbols-outlined text-primary text-3xl">local_hospital</span><div><h4 class="font-headline-sm text-headline-sm text-primary">PM-JAY Health Portal 1075</h4><p class="font-body-md text-body-md text-on-surface-variant">Ayushman Golden Card Empanelment Queries</p></div></div></div><div class="bg-surface-container p-space-lg rounded-xl flex flex-wrap items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><span class="material-symbols-outlined text-secondary text-4xl">elderly</span><div><p class="font-headline-sm text-headline-sm text-primary">Need help booking over phone?</p><p class="font-body-md text-body-md text-on-surface-variant">Call our Senior Friend Caregiver assistance desk directly</p></div></div><a class="inline-flex items-center gap-space-xs bg-primary text-on-primary px-space-lg py-space-sm rounded-xl font-label-lg text-label-lg hover:bg-primary-container transition-colors" href="tel:18004190123"><span class="material-symbols-outlined">phone_in_talk</span><span>1800-419-0123 (Toll Free)</span></a></div><div class="flex flex-wrap items-center justify-between gap-space-md pt-space-md"><div class="flex items-center gap-space-sm font-label-md text-label-md text-on-surface-variant"><span class="material-symbols-outlined text-secondary">health_and_safety</span><span>Ministry of Health &amp; Family Welfare | National Health Authority (NHA) Empaneled</span></div><div class="font-body-md text-body-md text-on-surface-variant">© 2024 SevaEase Health. Dedicated to Senior Dignity &amp; Public Healthcare Access.</div></div></div></footer></body></html>
